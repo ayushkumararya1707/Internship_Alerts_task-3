@@ -1,0 +1,87 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: yellow;
+}
+
+h1{
+    margin: 0px;
+    text-decoration: underline;
+    background-color: #2e0461;
+    color: white;
+    text-align: center;
+    font-family: cursive;
+    font-size: 55px;
+    padding: 5px 0px;
+}
+#dance1{
+    position: absolute;
+    height: 300px;
+    width: 0px;
+    transition: width 1s ease;
+    /* width: 300px; */
+    /* visibility: hidden; */
+    top: 200px;
+    left: 100px;
+}
+#dance2{
+    position: absolute;
+    height: 300px;
+    width: 0px;
+    /* width: 300px; */
+    transition: width 1s ease;
+    /* visibility: hidden; */
+    top: 200px;
+    right: 100px;
+}
+
+#result{
+    text-align: center;
+    font-size: 30px;
+    font-family: cursive;
+    font-weight: bolder;
+    margin-top:20px ;
+}
+
+#box{
+    padding-left: 460px;
+    margin-top: 17px;
+    
+}
+
+#box p{
+    display: flex;
+}
+
+.tic-tac-toe{
+    height: 100px;
+    width: 100px;
+    border-width: thick;
+    border-color: #7d7d79;
+    cursor: pointer;
+    font-size: xxx-large;
+    color: white;
+}
+
+#edit{
+    margin-left: 445px;
+    margin-right: 20px;
+}
+
+table .button{
+    text-align: center;
+    height: 50px;
+    width: 152px;
+    font-size:large;
+    border-radius: 15px;
+    background-color: #4dff07;
+    /* color: white; */
+    font-weight: bold;
+    border-width: 2px;
+    border-color: #717171;
+    margin-top: 10px;
+    cursor: pointer;
+}
